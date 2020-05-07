@@ -291,6 +291,7 @@ margin-left: 35px;
     line-height:32px;
     padding:0 15px;
     font-family:Helvetica,Arial,sans-serif;
+    z-index: 1;
 
   }
   #menu ul a:hover{
@@ -369,7 +370,9 @@ margin-left: 35px;
     display:block
   }
  
-
+.navbu{
+  position: relative;
+}
 .div3{
   
   background-color: rgb(70, 70, 201);
@@ -1439,7 +1442,7 @@ margin-left: 35px;
   .div11{
     background-color:rgb(33, 40, 48);
     height: 15cm;
-    float: left;
+    width: 100%;
   }
   
 }
@@ -1458,8 +1461,12 @@ margin-left: 35px;
 @media screen and (max-width: 600px) {
   .div11{
     background-color:rgb(33, 40, 48);
-    height: 13cm;
-    float: left;
+    height: 14cm;
+    width: 100%;
+    
+  }
+  .div11 .add{
+    margin-top: -13px;
   }
   .div11 .endlogo{
     
@@ -1486,7 +1493,7 @@ margin-left: 35px;
   .div11{
     background-color:rgb(33, 40, 48);
     height: 14cm;
-    float: left;
+    
   }
   
   .div11 table tr td{
@@ -1556,28 +1563,39 @@ margin-left: 35px;
 
 @media screen and (max-width: 1100px) {
   .div12{
-    margin-top: 15cm;
+   
+    width: 100%;
   }
 }
 @media screen and (max-width: 800px) {
   .div12{
-    margin-top: 14cm;
+   margin-top: 14cm;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .div12{
+
+    width: 100%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .div12{
     margin-top: 13cm;
+    width: 100%;
   }
 }
 @media screen and (max-width: 550px) {
   .div12{
-    margin-top: 13cm;
+   
+    width: 100%;
   }
 }
 @media screen and (max-width: 380px) {
   .div12{
-    margin-top: 14cm;
+   margin-top: 14cm;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1280px) {
